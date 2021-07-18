@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(234, 235, 240);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-block;
+  justify-content: left;
+  text-align: left;
+  position: relative;
+}
+.logo h1 {
+  display: inline-block;
+  font-size: bold;
+  margin-top: 9rem;
+  margin-left: 7rem;
+  padding: 0.5rem;
+}
+.logo h3 {
+  display: inline-block;
+  justify-content: left;
+  letter-spacing: 1px;
+  margin-left: 7rem;
+  padding-left: 0.5rem;
+  font-family: "Adamina", serif;
+}
+.form {
+  margin-top: 7rem;
+  margin-right: 7rem;
+  border: 1px solid rgb(250, 250, 250);
+  padding: 3rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 1px 1px 9px lightgrey;
+}
+
+.form input {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  outline: none;
+}
+.form input ::placeholder {
+  font-size: bolder;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.login {
+  width: 20rem;
+  padding: 0.3rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  background-color: rgb(71, 114, 233);
+  color: white;
+  font-family: "Merriweather", serif;
+
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: rgb(71, 114, 233);
+  font-size: 1rem;
+
+  margin: 5rem;
+  padding: 5px;
+}
+.create {
+  width: 10rem;
+  padding: 0.7rem;
+  color: whitesmoke;
+  background-color: rgb(114, 167, 131);
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+span {
+  font-weight: bolder;
+}
+
+.logo h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: rgb(71, 114, 233);
+  font-family: "Adamina", serif;
+}
